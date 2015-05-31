@@ -18,7 +18,3 @@
 #
 
 include_recipe 'minecraft'
-
-file ::File.join(node['minecraft']['install_dir'], 'eula.txt') do
-  content 'eula=true'
-end
