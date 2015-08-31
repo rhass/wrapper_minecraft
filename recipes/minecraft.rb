@@ -18,3 +18,7 @@
 #
 
 include_recipe 'minecraft'
+
+minecraft_plugin 'http://dev.bukkit.org/media/files/778/990/AutoBackup.jar'
+minecraft_plugin 'http://dev.bukkit.org/media/files/877/459/Knapsacks-v1.0.28-Bukkit_Spigot_1_8_x.jar'
+minecraft_plugin 'http://dev.bukkit.org/media/files/894/359/Vault.jar'
